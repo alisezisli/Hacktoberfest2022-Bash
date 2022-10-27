@@ -1,0 +1,28 @@
+#! /bin/bash
+
+#while loop examples
+
+#loop while 'sayi' is less than 10:
+
+sayi=0
+
+while [[ $sayi -lt 10 ]]
+do
+	echo $sayi
+	let sayi=sayi+1
+done
+
+
+#Get numbers from user and calculate the sum:
+
+toplam=0
+echo "Çıkmak için Ctrl+D kombinasyonunu kullanın"
+printf "Bir sayı girin: "
+
+while read sayi
+do
+	let toplam=toplam+sayi
+	printf "Bir sayı girin: "
+done
+echo ""
+echo "Girdiğiniz sayıların toplamı: $toplam"

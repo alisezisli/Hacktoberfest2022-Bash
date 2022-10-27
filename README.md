@@ -3,7 +3,7 @@ Bash script examples for Hacktoberfest 2022 event
 
 ## Ready to Jump Into Open Source World?
 
-Get information about Hacktoberfest from (here)](https://hacktoberfest.com)
+Get information about Hacktoberfest from [here](https://hacktoberfest.com)
 
 ## How do I Contribute?
 
